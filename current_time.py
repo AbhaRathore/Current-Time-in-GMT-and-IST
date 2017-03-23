@@ -8,6 +8,7 @@ current_minute = total_minutes % 60
 total_hours = total_minutes // 60
 current_hour = total_hours % 24
 
+print("Current time w.r.t machine (in milliseconds) is:", current_time)
 print("Current time in London is", current_hour, ":", current_minute, ":", current_second, "GMT" )
 
 ist_minutes = total_minutes + 330
